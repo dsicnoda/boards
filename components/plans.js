@@ -1,7 +1,7 @@
-import styles from "styles/plans.module.css";
-import Heading from "components/heading";
-import WContainer from "components/wcontainer";
-import Plan from "components/plan";
+import styles from 'styles/plans.module.css';
+import Heading from 'components/heading';
+import WContainer from 'components/wcontainer';
+import Plan from 'components/plan';
 
 export default function Plans() {
   return (

@@ -1,5 +1,5 @@
-import styles from "styles/hero.module.css";
-import WContainer from "components/wcontainer";
+import styles from 'styles/hero.module.css';
+import WContainer from 'components/wcontainer';
 
 export default function Hero() {
   return (

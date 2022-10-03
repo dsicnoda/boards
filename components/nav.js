@@ -1,9 +1,9 @@
-import { useState } from "react";
-import Link from "next/link";
-import styles from "styles/nav.module.css";
+import { useState } from 'react';
+import Link from 'next/link';
+import styles from 'styles/nav.module.css';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 export default function Nav() {
   const [navIsOpen, setNavIsOpen] = useState(false);

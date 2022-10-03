@@ -1,4 +1,4 @@
-import styles from "styles/heading-decoration.module.css";
+import styles from 'styles/heading-decoration.module.css';
 
 export default function HeadingDecoration({
   title,
@@ -9,7 +9,7 @@ export default function HeadingDecoration({
     <>
       <h2
         className={styles.headingDecoration}
-        style={emphasize ? { fontSize: "clamp(30px, 6.25vw, 48px)" } : {}}
+        style={emphasize ? { fontSize: 'clamp(30px, 6.25vw, 48px)' } : {}}
       >
         {title}
       </h2>

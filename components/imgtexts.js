@@ -1,5 +1,5 @@
-import WContainer from "components/wcontainer";
-import ImgText from "components/imgtext";
+import WContainer from 'components/wcontainer';
+import ImgText from 'components/imgtext';
 
 export default function ImgTexts() {
   return (

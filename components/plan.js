@@ -1,4 +1,4 @@
-import styles from "styles/plan.module.css";
+import styles from 'styles/plan.module.css';
 
 export default function Plan({ title, description, price, accent = false }) {
   return (
@@ -9,7 +9,7 @@ export default function Plan({ title, description, price, accent = false }) {
       <a
         href="#"
         className="btn"
-        style={accent ? { backgroundColor: "#b72661" } : {}}
+        style={accent ? { backgroundColor: '#b72661' } : {}}
       >
         使ってみる
       </a>

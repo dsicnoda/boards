@@ -1,7 +1,7 @@
-import Image from "next/image";
-import styles from "styles/imgtext.module.css";
-import WContainer from "components/wcontainer";
-import HeadingDecoration from "components/heading-decoration";
+import Image from 'next/image';
+import styles from 'styles/imgtext.module.css';
+import WContainer from 'components/wcontainer';
+import HeadingDecoration from 'components/heading-decoration';
 
 export default function ImgText({
   title,
@@ -17,7 +17,7 @@ export default function ImgText({
       <WContainer>
         <div
           className={styles.imgtextContainer}
-          style={reverse ? { flexDirection: "row-reverse" } : {}}
+          style={reverse ? { flexDirection: 'row-reverse' } : {}}
         >
           <div className="text">
             <HeadingDecoration title={title} subtitle={subtitle} />

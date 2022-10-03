@@ -1,7 +1,7 @@
-import Logo from "components/logo";
-import Nav from "components/nav";
-import styles from "styles/header.module.css";
-import WContainer from "components/wcontainer";
+import Logo from 'components/logo';
+import Nav from 'components/nav';
+import styles from 'styles/header.module.css';
+import WContainer from 'components/wcontainer';
 
 export default function Header() {
   return (

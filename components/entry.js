@@ -1,7 +1,7 @@
-import Image from "next/image";
-import styles from "styles/entry.module.css";
-import WContainer from "components/wcontainer";
-import HeadingDecoration from "./heading-decoration";
+import Image from 'next/image';
+import styles from 'styles/entry.module.css';
+import WContainer from 'components/wcontainer';
+import HeadingDecoration from './heading-decoration';
 
 export default function Entry() {
   return (

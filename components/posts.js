@@ -1,7 +1,7 @@
-import styles from "styles/posts.module.css";
-import WContainer from "components/wcontainer";
-import Post from "components/post";
-import Heading from "./heading";
+import styles from 'styles/posts.module.css';
+import WContainer from 'components/wcontainer';
+import Post from 'components/post';
+import Heading from './heading';
 
 export default function Posts() {
   return (

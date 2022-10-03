@@ -1,9 +1,9 @@
-import Logo from "components/logo";
-import Sns from "components/sns";
-import Menu from "components/menu";
-import Copyright from "components/copyright";
-import styles from "styles/footer.module.css";
-import WContainer from "components/wcontainer";
+import Logo from 'components/logo';
+import Sns from 'components/sns';
+import Menu from 'components/menu';
+import Copyright from 'components/copyright';
+import styles from 'styles/footer.module.css';
+import WContainer from 'components/wcontainer';
 
 export default function Footer() {
   return (

@@ -1,4 +1,4 @@
-import styles from "styles/heading.module.css";
+import styles from 'styles/heading.module.css';
 
 export default function Heading({ title, subtitle }) {
   return (

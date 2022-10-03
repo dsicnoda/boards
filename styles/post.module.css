@@ -1,0 +1,28 @@
+
+.post a {
+  display: block;
+}
+
+.post h3 {
+  margin: 1em 0 0.5em;
+  font-size: clamp(12px, 2vw, 20px);
+  min-height: 0vw;
+}
+
+.post p {
+  max-width: 20em;
+  font-size: clamp(10px, 1.6vw, 14px);
+  min-height: 0vw;
+}
+
+.post img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  width: 100%;
+}
+
+@supports not (aspect-ratio: 3 / 2) {
+  .post img {
+    height: 180px;
+  }
+}

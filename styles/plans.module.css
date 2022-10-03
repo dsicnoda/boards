@@ -1,0 +1,16 @@
+/* プラン */
+.plans {
+  padding: var(--v-space) 0;
+  background-color: #e9e5e9;
+}
+
+.plansContainer {
+  display: grid;
+  gap: 27px;
+}
+
+@media (min-width: 768px) {
+  .plansContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

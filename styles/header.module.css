@@ -1,0 +1,13 @@
+/* ヘッダー */
+.header {
+  height: 112px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.headerContainer {
+  composes: spaceBetween from 'styles/autolayout.module.css';
+  height: 100%;
+}

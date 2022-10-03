@@ -1,0 +1,6 @@
+.wContainer {
+  width: min(92%, 1166px);
+  height: 100%;
+  margin: auto;
+  position: relative;
+}

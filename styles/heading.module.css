@@ -1,0 +1,14 @@
+.heading {
+  position: absolute;
+  top: calc((var(--v-space) + 0.6em) * -1);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(40px, 5.2vw, 70px);
+  min-height: 0vw;
+  font-weight: 300;
+}
+
+.heading span {
+  display: block;
+  color: #666666;
+  font-size: 18px;
+}

@@ -1,0 +1,35 @@
+/* 記事 */
+.entry {
+  padding-bottom: var(--v-space);
+  background-color: #ffffff;
+}
+
+.entryImg {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: calc(var(--v-space) * 2 / 3);
+}
+
+.entryContainer {
+  font-size: clamp(16px, 2.4vw, 18px);
+}
+
+.entryContainer :where(h1, h2, h3, h4, h5, h6, p, figure, ul) {
+  margin-top: revert;
+  margin-bottom: revert;
+  padding: revert;
+  list-style: revert;
+}
+
+.entryContainer p {
+  margin: 1.8em 0;
+}
+
+.entryContainer > :first-child {
+  margin-top: 0;
+}
+
+.entryContainer > :last-child {
+  margin-bottom: 0;
+}

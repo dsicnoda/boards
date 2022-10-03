@@ -1,0 +1,32 @@
+/* 画像とテキスト */
+.imgtext {
+  padding: clamp(90px, 9vw, 120px) 0;
+  background-color: #ffffff;
+}
+
+.imgtext + .imgtext {
+  padding-top: 0;
+}
+
+.imgtextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(45px, 6vw, 80px);
+}
+
+@media (min-width: 768px) {
+  .imgtextContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+  .imgtextContainer > :global(.text) {
+    flex: 1;
+    min-width: 17em;
+  }
+  .imgtextContainer > :global(.img) {
+    flex: 2;
+  }
+  .imgtextContainer.reverse {
+    flex-direction: row-reverse;
+  }
+}
